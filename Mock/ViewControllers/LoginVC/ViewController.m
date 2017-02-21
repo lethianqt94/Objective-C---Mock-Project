@@ -55,24 +55,14 @@
     viewPassword.clipsToBounds = YES;
 }
 
-#pragma mark - User Actions
+#pragma mark - Override
 
-- (IBAction)doLogin:(id)sender {
-    
-    AccountManager *acc = [AccountManager sharedInstance];
-    [acc signInWithEmail:tfEmail.text password:tfPassword.text completion:^(BOOL result) {
-        if (result) {
-            printf("success");
-//            NSString * storyboardName = @"Main";
-//            UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle: nil];
-//            UIViewController * vc = [storyboard instantiateViewControllerWithIdentifier:@"SimpleTableVC"];
-//            [self.navigationController pushViewController:vc animated:true];
-            [self performSegueWithIdentifier:@"Login" sender:sender];
-        } else {
-            printf("failed");
-        }
-    }];
-    
+- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender {
+  
+  NSString *email = tfEmail.text;
+  NSString *password = tfPassword.text;
+  
+  return (![email  isEqual: @""] && ![password  isEqual: @""]);
 }
 
 @end
