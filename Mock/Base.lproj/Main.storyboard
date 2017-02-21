@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -84,6 +84,7 @@
                                 </state>
                                 <connections>
                                     <action selector="doLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cPG-WS-Jbd"/>
+                                    <segue destination="5kD-qO-aB2" kind="custom" identifier="Login" id="xNg-Gj-sZu"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -116,10 +117,10 @@
             </objects>
             <point key="canvasLocation" x="964" y="36.431784107946029"/>
         </scene>
-        <!--View Controller-->
+        <!--Simple TableVC-->
         <scene sceneID="vXr-PC-ZhV">
             <objects>
-                <viewController id="5kD-qO-aB2" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SimpleTableVC" id="5kD-qO-aB2" customClass="SimpleTableVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9PX-Dn-60z"/>
                         <viewControllerLayoutGuide type="bottom" id="PzV-wp-hhJ"/>

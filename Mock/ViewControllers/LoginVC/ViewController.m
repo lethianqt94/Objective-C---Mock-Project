@@ -37,18 +37,12 @@
     [self initView];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:true];
     [self.navigationController setNavigationBarHidden:true];
 }
 
-#pragma mark - Implementing methods
+#pragma mark - Methods
 
 - (void)initView {
     btnLogin.layer.cornerRadius = 10;
@@ -64,14 +58,21 @@
 #pragma mark - User Actions
 
 - (IBAction)doLogin:(id)sender {
+    
     AccountManager *acc = [AccountManager sharedInstance];
     [acc signInWithEmail:tfEmail.text password:tfPassword.text completion:^(BOOL result) {
         if (result) {
             printf("success");
+//            NSString * storyboardName = @"Main";
+//            UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle: nil];
+//            UIViewController * vc = [storyboard instantiateViewControllerWithIdentifier:@"SimpleTableVC"];
+//            [self.navigationController pushViewController:vc animated:true];
+            [self performSegueWithIdentifier:@"Login" sender:sender];
         } else {
             printf("failed");
         }
     }];
+    
 }
 
 @end

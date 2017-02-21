@@ -15,7 +15,8 @@
 		3291411D1E5BD4560045BBF1 /* MockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3291411C1E5BD4560045BBF1 /* MockUITests.m */; };
 		329141441E5BED5B0045BBF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3291413B1E5BED5B0045BBF1 /* AppDelegate.m */; };
 		329141451E5BED5B0045BBF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141431E5BED5B0045BBF1 /* ViewController.m */; };
-		329141481E5BEDA80045BBF1 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141471E5BEDA80045BBF1 /* AccountManager.m */; };
+		3291414C1E5C30470045BBF1 /* SimpleTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3291414B1E5C30470045BBF1 /* SimpleTableVC.m */; };
+		329141531E5C3D5B0045BBF1 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141511E5C3D5B0045BBF1 /* AccountManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +53,11 @@
 		3291413B1E5BED5B0045BBF1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		329141421E5BED5B0045BBF1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		329141431E5BED5B0045BBF1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		329141461E5BEDA80045BBF1 /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
-		329141471E5BEDA80045BBF1 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
+		3291414A1E5C30470045BBF1 /* SimpleTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableVC.h; sourceTree = "<group>"; };
+		3291414B1E5C30470045BBF1 /* SimpleTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableVC.m; sourceTree = "<group>"; };
+		329141501E5C3D5B0045BBF1 /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		329141511E5C3D5B0045BBF1 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
+		329141541E5C3E540045BBF1 /* AppConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 		329140F61E5BD4560045BBF1 /* Mock */ = {
 			isa = PBXGroup;
 			children = (
+				3291414E1E5C3D5B0045BBF1 /* Utilities */,
 				329141391E5BED5B0045BBF1 /* AppDelegate */,
 				3291413C1E5BED5B0045BBF1 /* Helpers */,
 				329141401E5BED5B0045BBF1 /* ViewControllers */,
@@ -155,7 +160,6 @@
 			isa = PBXGroup;
 			children = (
 				3291413D1E5BED5B0045BBF1 /* Libraries */,
-				3291413E1E5BED5B0045BBF1 /* Utinities */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -167,26 +171,10 @@
 			path = Libraries;
 			sourceTree = "<group>";
 		};
-		3291413E1E5BED5B0045BBF1 /* Utinities */ = {
-			isa = PBXGroup;
-			children = (
-				3291413F1E5BED5B0045BBF1 /* AccountManager */,
-			);
-			path = Utinities;
-			sourceTree = "<group>";
-		};
-		3291413F1E5BED5B0045BBF1 /* AccountManager */ = {
-			isa = PBXGroup;
-			children = (
-				329141461E5BEDA80045BBF1 /* AccountManager.h */,
-				329141471E5BEDA80045BBF1 /* AccountManager.m */,
-			);
-			path = AccountManager;
-			sourceTree = "<group>";
-		};
 		329141401E5BED5B0045BBF1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				329141491E5C302B0045BBF1 /* SimpleTableVC */,
 				329141411E5BED5B0045BBF1 /* LoginVC */,
 			);
 			path = ViewControllers;
@@ -199,6 +187,42 @@
 				329141431E5BED5B0045BBF1 /* ViewController.m */,
 			);
 			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		329141491E5C302B0045BBF1 /* SimpleTableVC */ = {
+			isa = PBXGroup;
+			children = (
+				3291414A1E5C30470045BBF1 /* SimpleTableVC.h */,
+				3291414B1E5C30470045BBF1 /* SimpleTableVC.m */,
+			);
+			path = SimpleTableVC;
+			sourceTree = "<group>";
+		};
+		3291414E1E5C3D5B0045BBF1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3291414F1E5C3D5B0045BBF1 /* AccountManager */,
+				329141521E5C3D5B0045BBF1 /* Common */,
+				329141541E5C3E540045BBF1 /* AppConstant.h */,
+			);
+			name = Utilities;
+			path = Helpers/Utilities;
+			sourceTree = "<group>";
+		};
+		3291414F1E5C3D5B0045BBF1 /* AccountManager */ = {
+			isa = PBXGroup;
+			children = (
+				329141501E5C3D5B0045BBF1 /* AccountManager.h */,
+				329141511E5C3D5B0045BBF1 /* AccountManager.m */,
+			);
+			path = AccountManager;
+			sourceTree = "<group>";
+		};
+		329141521E5C3D5B0045BBF1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,9 +359,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				329141451E5BED5B0045BBF1 /* ViewController.m in Sources */,
+				329141531E5C3D5B0045BBF1 /* AccountManager.m in Sources */,
+				3291414C1E5C30470045BBF1 /* SimpleTableVC.m in Sources */,
 				329141441E5BED5B0045BBF1 /* AppDelegate.m in Sources */,
 				329140F91E5BD4560045BBF1 /* main.m in Sources */,
-				329141481E5BEDA80045BBF1 /* AccountManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,6 +594,7 @@
 				329141231E5BD4570045BBF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		329141241E5BD4570045BBF1 /* Build configuration list for PBXNativeTarget "MockTests" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +603,7 @@
 				329141261E5BD4570045BBF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		329141271E5BD4570045BBF1 /* Build configuration list for PBXNativeTarget "MockUITests" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +612,7 @@
 				329141291E5BD4570045BBF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
