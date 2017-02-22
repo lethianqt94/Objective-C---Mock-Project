@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SimpleTableVC : UIViewController
+@interface SimpleTableVC : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
 @end

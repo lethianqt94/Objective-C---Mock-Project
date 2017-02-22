@@ -32,37 +32,43 @@
 #pragma mark - Lifecycle
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    [self initView];
+  [super viewDidLoad];
+  // Do any additional setup after loading the view, typically from a nib.
+  [self initView];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:true];
-    [self.navigationController setNavigationBarHidden:true];
+  [super viewWillAppear:true];
+  [self.navigationController setNavigationBarHidden:true];
 }
 
 #pragma mark - Methods
 
 - (void)initView {
-    btnLogin.layer.cornerRadius = 10;
-    btnLogin.clipsToBounds = YES;
-    
-    viewEmail.layer.cornerRadius = 10;
-    viewEmail.clipsToBounds = YES;
-    
-    viewPassword.layer.cornerRadius = 10;
-    viewPassword.clipsToBounds = YES;
+  btnLogin.layer.cornerRadius = 10;
+  btnLogin.clipsToBounds = YES;
+  
+  viewEmail.layer.cornerRadius = 10;
+  viewEmail.clipsToBounds = YES;
+  
+  viewPassword.layer.cornerRadius = 10;
+  viewPassword.clipsToBounds = YES;
 }
 
-#pragma mark - Override
+#pragma mark - Actions
 
-- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender {
-  
+- (IBAction)doLogin:(id)sender {
+  AccountManager *acc = [AccountManager sharedInstance];
   NSString *email = tfEmail.text;
   NSString *password = tfPassword.text;
-  
-  return (![email  isEqual: @""] && ![password  isEqual: @""]);
+  [acc signInWithEmail:email password:password completion:^(BOOL result) {
+    if (result) {
+      SimpleTableVC *vc = [[SimpleTableVC alloc]initWithNibName:@"SimpleTableVC" bundle:nil];
+      [self.navigationController pushViewController:vc animated:true];
+    } else {
+      printf("Missing user or pwd");
+    }
+  }];
 }
 
 @end

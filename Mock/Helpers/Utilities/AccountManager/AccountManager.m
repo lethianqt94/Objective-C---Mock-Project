@@ -13,26 +13,26 @@
 #pragma mark - Implementing methods
 
 + (instancetype) sharedInstance {
-    static AccountManager *sharedInstance = nil;
-
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        sharedInstance = [[self alloc] init];
-    });
-
-    return sharedInstance;
+  static AccountManager *sharedInstance = nil;
+  
+  static dispatch_once_t onceToken;
+  dispatch_once(&onceToken, ^{
+    sharedInstance = [[self alloc] init];
+  });
+  
+  return sharedInstance;
 }
 
 - (void)signInWithEmail:(NSString *)email password:(NSString *)password completion:(void (^)(BOOL))completion {
-    if (![email  isEqual: @""] && ![password  isEqual: @""]) {
-        completion(true);
-    } else {
-        completion(false);
-    }
+  if (![email  isEqual: @""] && ![password  isEqual: @""]) {
+    completion(true);
+  } else {
+    completion(false);
+  }
 }
 
 - (BOOL)logOut {
-    return false;
+  return false;
 }
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SimpleTableVC.h"
 
 @interface ViewController : UIViewController
 
