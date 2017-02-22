@@ -23,11 +23,12 @@
 
 @implementation ViewController
 
-@synthesize viewEmail;
-@synthesize tfEmail;
-@synthesize viewPassword;
-@synthesize tfPassword;
-@synthesize btnLogin;
+@synthesize viewEmail = _viewEmail;
+@synthesize tfEmail = _tfEmail;
+@synthesize viewPassword = _viewPassword;
+@synthesize tfPassword = _tfPassword;
+@synthesize btnLogin = _btnLogin
+;
 
 #pragma mark - Lifecycle
 
@@ -39,28 +40,30 @@
 
 - (void)viewWillAppear:(BOOL)animated {
   [super viewWillAppear:true];
+  _tfEmail.text = @"";
+  _tfPassword.text = @"";
   [self.navigationController setNavigationBarHidden:true];
 }
 
 #pragma mark - Methods
 
 - (void)initView {
-  btnLogin.layer.cornerRadius = 10;
-  btnLogin.clipsToBounds = YES;
+  _btnLogin.layer.cornerRadius = 10;
+  _btnLogin.clipsToBounds = YES;
   
-  viewEmail.layer.cornerRadius = 10;
-  viewEmail.clipsToBounds = YES;
+  _viewEmail.layer.cornerRadius = 10;
+  _viewEmail.clipsToBounds = YES;
   
-  viewPassword.layer.cornerRadius = 10;
-  viewPassword.clipsToBounds = YES;
+  _viewPassword.layer.cornerRadius = 10;
+  _viewPassword.clipsToBounds = YES;
 }
 
 #pragma mark - Actions
 
 - (IBAction)doLogin:(id)sender {
   AccountManager *acc = [AccountManager sharedInstance];
-  NSString *email = tfEmail.text;
-  NSString *password = tfPassword.text;
+  NSString *email = _tfEmail.text;
+  NSString *password = _tfPassword.text;
   [acc signInWithEmail:email password:password completion:^(BOOL result) {
     if (result) {
       SimpleTableVC *vc = [[SimpleTableVC alloc]initWithNibName:@"SimpleTableVC" bundle:nil];

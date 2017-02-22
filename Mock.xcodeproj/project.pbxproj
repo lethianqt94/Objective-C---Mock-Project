@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		329140F91E5BD4560045BBF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 329140F81E5BD4560045BBF1 /* main.m */; };
-		329141021E5BD4560045BBF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329141001E5BD4560045BBF1 /* Main.storyboard */; };
 		329141041E5BD4560045BBF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329141031E5BD4560045BBF1 /* Assets.xcassets */; };
 		329141071E5BD4560045BBF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329141051E5BD4560045BBF1 /* LaunchScreen.storyboard */; };
 		329141121E5BD4560045BBF1 /* MockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141111E5BD4560045BBF1 /* MockTests.m */; };
@@ -19,6 +18,8 @@
 		329141571E5D36800045BBF1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329141561E5D36800045BBF1 /* ViewController.xib */; };
 		329141591E5D376E0045BBF1 /* SimpleTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329141581E5D376E0045BBF1 /* SimpleTableVC.xib */; };
 		329141601E5D38C10045BBF1 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3291415D1E5D38C10045BBF1 /* AccountManager.m */; };
+		329141641E5D421B0045BBF1 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141621E5D421B0045BBF1 /* TableViewCell.m */; };
+		329141651E5D421B0045BBF1 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329141631E5D421B0045BBF1 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,6 @@
 /* Begin PBXFileReference section */
 		329140F41E5BD4560045BBF1 /* Mock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		329140F81E5BD4560045BBF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		329141011E5BD4560045BBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		329141031E5BD4560045BBF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		329141061E5BD4560045BBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		329141081E5BD4560045BBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +62,9 @@
 		3291415C1E5D38C10045BBF1 /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
 		3291415D1E5D38C10045BBF1 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
 		3291415E1E5D38C10045BBF1 /* AppConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
+		329141611E5D421B0045BBF1 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		329141621E5D421B0045BBF1 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		329141631E5D421B0045BBF1 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +118,6 @@
 				329141391E5BED5B0045BBF1 /* AppDelegate */,
 				3291413C1E5BED5B0045BBF1 /* Helpers */,
 				329141401E5BED5B0045BBF1 /* ViewControllers */,
-				329141001E5BD4560045BBF1 /* Main.storyboard */,
 				329141031E5BD4560045BBF1 /* Assets.xcassets */,
 				329141051E5BD4560045BBF1 /* LaunchScreen.storyboard */,
 				329141081E5BD4560045BBF1 /* Info.plist */,
@@ -208,6 +210,9 @@
 		329141551E5D24380045BBF1 /* CustomCell */ = {
 			isa = PBXGroup;
 			children = (
+				329141611E5D421B0045BBF1 /* TableViewCell.h */,
+				329141621E5D421B0045BBF1 /* TableViewCell.m */,
+				329141631E5D421B0045BBF1 /* TableViewCell.xib */,
 			);
 			path = CustomCell;
 			sourceTree = "<group>";
@@ -345,9 +350,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				329141071E5BD4560045BBF1 /* LaunchScreen.storyboard in Resources */,
+				329141651E5D421B0045BBF1 /* TableViewCell.xib in Resources */,
 				329141041E5BD4560045BBF1 /* Assets.xcassets in Resources */,
 				329141571E5D36800045BBF1 /* ViewController.xib in Resources */,
-				329141021E5BD4560045BBF1 /* Main.storyboard in Resources */,
 				329141591E5D376E0045BBF1 /* SimpleTableVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				329141451E5BED5B0045BBF1 /* ViewController.m in Sources */,
+				329141641E5D421B0045BBF1 /* TableViewCell.m in Sources */,
 				329141601E5D38C10045BBF1 /* AccountManager.m in Sources */,
 				3291414C1E5C30470045BBF1 /* SimpleTableVC.m in Sources */,
 				329141441E5BED5B0045BBF1 /* AppDelegate.m in Sources */,
@@ -413,14 +419,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		329141001E5BD4560045BBF1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				329141011E5BD4560045BBF1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		329141051E5BD4560045BBF1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
