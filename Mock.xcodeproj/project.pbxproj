@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00CB334B26BBF92EC86002EE /* libPods-Mock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99FA1880F65B15948B21E5FF /* libPods-Mock.a */; };
 		329140F91E5BD4560045BBF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 329140F81E5BD4560045BBF1 /* main.m */; };
 		329141041E5BD4560045BBF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329141031E5BD4560045BBF1 /* Assets.xcassets */; };
 		329141071E5BD4560045BBF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329141051E5BD4560045BBF1 /* LaunchScreen.storyboard */; };
 		329141121E5BD4560045BBF1 /* MockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141111E5BD4560045BBF1 /* MockTests.m */; };
 		3291411D1E5BD4560045BBF1 /* MockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3291411C1E5BD4560045BBF1 /* MockUITests.m */; };
 		329141441E5BED5B0045BBF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3291413B1E5BED5B0045BBF1 /* AppDelegate.m */; };
-		329141451E5BED5B0045BBF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141431E5BED5B0045BBF1 /* ViewController.m */; };
-		3291414C1E5C30470045BBF1 /* SimpleTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3291414B1E5C30470045BBF1 /* SimpleTableVC.m */; };
-		329141571E5D36800045BBF1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329141561E5D36800045BBF1 /* ViewController.xib */; };
-		329141591E5D376E0045BBF1 /* SimpleTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329141581E5D376E0045BBF1 /* SimpleTableVC.xib */; };
-		329141641E5D421B0045BBF1 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141621E5D421B0045BBF1 /* TableViewCell.m */; };
-		329141651E5D421B0045BBF1 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329141631E5D421B0045BBF1 /* TableViewCell.xib */; };
 		3291416C1E5D645D0045BBF1 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141691E5D645D0045BBF1 /* AccountManager.m */; };
+		3291417D1E5D73AB0045BBF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141711E5D73AB0045BBF1 /* ViewController.m */; };
+		3291417E1E5D73AB0045BBF1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329141721E5D73AB0045BBF1 /* ViewController.xib */; };
+		3291417F1E5D73AB0045BBF1 /* SimpleTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141751E5D73AB0045BBF1 /* SimpleTableVC.m */; };
+		329141801E5D73AB0045BBF1 /* SimpleTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329141761E5D73AB0045BBF1 /* SimpleTableVC.xib */; };
+		329141811E5D73AB0045BBF1 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3291417B1E5D73AB0045BBF1 /* TableViewCell.m */; };
+		329141821E5D73AB0045BBF1 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3291417C1E5D73AB0045BBF1 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EB32E1B284307678D1775A0 /* Pods-Mock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mock/Pods-Mock.debug.xcconfig"; sourceTree = "<group>"; };
 		329140F41E5BD4560045BBF1 /* Mock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		329140F81E5BD4560045BBF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		329141031E5BD4560045BBF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,18 +55,20 @@
 		3291411E1E5BD4560045BBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3291413A1E5BED5B0045BBF1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3291413B1E5BED5B0045BBF1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		329141421E5BED5B0045BBF1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		329141431E5BED5B0045BBF1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3291414A1E5C30470045BBF1 /* SimpleTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableVC.h; sourceTree = "<group>"; };
-		3291414B1E5C30470045BBF1 /* SimpleTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableVC.m; sourceTree = "<group>"; };
-		329141561E5D36800045BBF1 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		329141581E5D376E0045BBF1 /* SimpleTableVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableVC.xib; sourceTree = "<group>"; };
-		329141611E5D421B0045BBF1 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
-		329141621E5D421B0045BBF1 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
-		329141631E5D421B0045BBF1 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		329141681E5D645D0045BBF1 /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
 		329141691E5D645D0045BBF1 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
 		3291416A1E5D645D0045BBF1 /* AppConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
+		329141701E5D73AB0045BBF1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		329141711E5D73AB0045BBF1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		329141721E5D73AB0045BBF1 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		329141741E5D73AB0045BBF1 /* SimpleTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableVC.h; sourceTree = "<group>"; };
+		329141751E5D73AB0045BBF1 /* SimpleTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableVC.m; sourceTree = "<group>"; };
+		329141761E5D73AB0045BBF1 /* SimpleTableVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableVC.xib; sourceTree = "<group>"; };
+		3291417A1E5D73AB0045BBF1 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		3291417B1E5D73AB0045BBF1 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		3291417C1E5D73AB0045BBF1 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		66175F59D65B2A25D6FD2B34 /* Pods-Mock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mock.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mock/Pods-Mock.release.xcconfig"; sourceTree = "<group>"; };
+		99FA1880F65B15948B21E5FF /* libPods-Mock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00CB334B26BBF92EC86002EE /* libPods-Mock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +104,8 @@
 				329141101E5BD4560045BBF1 /* MockTests */,
 				3291411B1E5BD4560045BBF1 /* MockUITests */,
 				329140F51E5BD4560045BBF1 /* Products */,
+				FEDF8F116A65DD2394E40C5B /* Pods */,
+				B3311DC1CD5CD372B9434B95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,7 +124,7 @@
 			children = (
 				329141391E5BED5B0045BBF1 /* AppDelegate */,
 				3291413C1E5BED5B0045BBF1 /* Helpers */,
-				329141401E5BED5B0045BBF1 /* ViewControllers */,
+				3291416D1E5D73AB0045BBF1 /* Classes */,
 				329141031E5BD4560045BBF1 /* Assets.xcassets */,
 				329141051E5BD4560045BBF1 /* LaunchScreen.storyboard */,
 				329141081E5BD4560045BBF1 /* Info.plist */,
@@ -177,46 +184,6 @@
 			path = Libraries;
 			sourceTree = "<group>";
 		};
-		329141401E5BED5B0045BBF1 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				329141491E5C302B0045BBF1 /* SimpleTableVC */,
-				329141411E5BED5B0045BBF1 /* LoginVC */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		329141411E5BED5B0045BBF1 /* LoginVC */ = {
-			isa = PBXGroup;
-			children = (
-				329141421E5BED5B0045BBF1 /* ViewController.h */,
-				329141431E5BED5B0045BBF1 /* ViewController.m */,
-				329141561E5D36800045BBF1 /* ViewController.xib */,
-			);
-			path = LoginVC;
-			sourceTree = "<group>";
-		};
-		329141491E5C302B0045BBF1 /* SimpleTableVC */ = {
-			isa = PBXGroup;
-			children = (
-				329141551E5D24380045BBF1 /* CustomCell */,
-				3291414A1E5C30470045BBF1 /* SimpleTableVC.h */,
-				3291414B1E5C30470045BBF1 /* SimpleTableVC.m */,
-				329141581E5D376E0045BBF1 /* SimpleTableVC.xib */,
-			);
-			path = SimpleTableVC;
-			sourceTree = "<group>";
-		};
-		329141551E5D24380045BBF1 /* CustomCell */ = {
-			isa = PBXGroup;
-			children = (
-				329141611E5D421B0045BBF1 /* TableViewCell.h */,
-				329141621E5D421B0045BBF1 /* TableViewCell.m */,
-				329141631E5D421B0045BBF1 /* TableViewCell.xib */,
-			);
-			path = CustomCell;
-			sourceTree = "<group>";
-		};
 		329141661E5D645D0045BBF1 /* Utinities */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,6 +210,87 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		3291416D1E5D73AB0045BBF1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3291416E1E5D73AB0045BBF1 /* Controllers */,
+				329141771E5D73AB0045BBF1 /* Models */,
+				329141781E5D73AB0045BBF1 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3291416E1E5D73AB0045BBF1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3291416F1E5D73AB0045BBF1 /* LoginVC */,
+				329141731E5D73AB0045BBF1 /* SimpleTableVC */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3291416F1E5D73AB0045BBF1 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				329141701E5D73AB0045BBF1 /* ViewController.h */,
+				329141711E5D73AB0045BBF1 /* ViewController.m */,
+				329141721E5D73AB0045BBF1 /* ViewController.xib */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		329141731E5D73AB0045BBF1 /* SimpleTableVC */ = {
+			isa = PBXGroup;
+			children = (
+				329141741E5D73AB0045BBF1 /* SimpleTableVC.h */,
+				329141751E5D73AB0045BBF1 /* SimpleTableVC.m */,
+				329141761E5D73AB0045BBF1 /* SimpleTableVC.xib */,
+			);
+			path = SimpleTableVC;
+			sourceTree = "<group>";
+		};
+		329141771E5D73AB0045BBF1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		329141781E5D73AB0045BBF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				329141791E5D73AB0045BBF1 /* CustomCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		329141791E5D73AB0045BBF1 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				3291417A1E5D73AB0045BBF1 /* TableViewCell.h */,
+				3291417B1E5D73AB0045BBF1 /* TableViewCell.m */,
+				3291417C1E5D73AB0045BBF1 /* TableViewCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		B3311DC1CD5CD372B9434B95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99FA1880F65B15948B21E5FF /* libPods-Mock.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEDF8F116A65DD2394E40C5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EB32E1B284307678D1775A0 /* Pods-Mock.debug.xcconfig */,
+				66175F59D65B2A25D6FD2B34 /* Pods-Mock.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -250,9 +298,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 329141211E5BD4570045BBF1 /* Build configuration list for PBXNativeTarget "Mock" */;
 			buildPhases = (
+				9F9C5210ED45D8BDD841A42B /* [CP] Check Pods Manifest.lock */,
 				329140F01E5BD4560045BBF1 /* Sources */,
 				329140F11E5BD4560045BBF1 /* Frameworks */,
 				329140F21E5BD4560045BBF1 /* Resources */,
+				A62A23506821BB6E98871EE0 /* [CP] Embed Pods Frameworks */,
+				A3F9AA6C418AF7D223C58171 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -350,10 +401,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				329141071E5BD4560045BBF1 /* LaunchScreen.storyboard in Resources */,
-				329141651E5D421B0045BBF1 /* TableViewCell.xib in Resources */,
+				329141821E5D73AB0045BBF1 /* TableViewCell.xib in Resources */,
+				329141801E5D73AB0045BBF1 /* SimpleTableVC.xib in Resources */,
+				3291417E1E5D73AB0045BBF1 /* ViewController.xib in Resources */,
 				329141041E5BD4560045BBF1 /* Assets.xcassets in Resources */,
-				329141571E5D36800045BBF1 /* ViewController.xib in Resources */,
-				329141591E5D376E0045BBF1 /* SimpleTableVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,16 +424,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9F9C5210ED45D8BDD841A42B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F9AA6C418AF7D223C58171 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mock/Pods-Mock-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A62A23506821BB6E98871EE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mock/Pods-Mock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		329140F01E5BD4560045BBF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				329141451E5BED5B0045BBF1 /* ViewController.m in Sources */,
-				329141641E5D421B0045BBF1 /* TableViewCell.m in Sources */,
-				3291414C1E5C30470045BBF1 /* SimpleTableVC.m in Sources */,
 				329141441E5BED5B0045BBF1 /* AppDelegate.m in Sources */,
+				329141811E5D73AB0045BBF1 /* TableViewCell.m in Sources */,
+				3291417F1E5D73AB0045BBF1 /* SimpleTableVC.m in Sources */,
 				329140F91E5BD4560045BBF1 /* main.m in Sources */,
+				3291417D1E5D73AB0045BBF1 /* ViewController.m in Sources */,
 				3291416C1E5D645D0045BBF1 /* AccountManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +621,7 @@
 		};
 		329141221E5BD4570045BBF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB32E1B284307678D1775A0 /* Pods-Mock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Mock/Info.plist;
@@ -533,6 +633,7 @@
 		};
 		329141231E5BD4570045BBF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66175F59D65B2A25D6FD2B34 /* Pods-Mock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Mock/Info.plist;

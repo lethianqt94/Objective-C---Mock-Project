@@ -6,7 +6,7 @@
 //  Copyright © 2017 Neolab. All rights reserved.
 //
 
-#import "SimpleTableVC.h" 
+#import "SimpleTableVC.h"
 
 @interface SimpleTableVC ()
 
