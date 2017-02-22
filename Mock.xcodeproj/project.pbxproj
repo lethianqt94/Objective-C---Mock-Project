@@ -17,9 +17,9 @@
 		3291414C1E5C30470045BBF1 /* SimpleTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3291414B1E5C30470045BBF1 /* SimpleTableVC.m */; };
 		329141571E5D36800045BBF1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329141561E5D36800045BBF1 /* ViewController.xib */; };
 		329141591E5D376E0045BBF1 /* SimpleTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329141581E5D376E0045BBF1 /* SimpleTableVC.xib */; };
-		329141601E5D38C10045BBF1 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3291415D1E5D38C10045BBF1 /* AccountManager.m */; };
 		329141641E5D421B0045BBF1 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141621E5D421B0045BBF1 /* TableViewCell.m */; };
 		329141651E5D421B0045BBF1 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329141631E5D421B0045BBF1 /* TableViewCell.xib */; };
+		3291416C1E5D645D0045BBF1 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141691E5D645D0045BBF1 /* AccountManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,12 +59,12 @@
 		3291414B1E5C30470045BBF1 /* SimpleTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableVC.m; sourceTree = "<group>"; };
 		329141561E5D36800045BBF1 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		329141581E5D376E0045BBF1 /* SimpleTableVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableVC.xib; sourceTree = "<group>"; };
-		3291415C1E5D38C10045BBF1 /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
-		3291415D1E5D38C10045BBF1 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
-		3291415E1E5D38C10045BBF1 /* AppConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
 		329141611E5D421B0045BBF1 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		329141621E5D421B0045BBF1 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		329141631E5D421B0045BBF1 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		329141681E5D645D0045BBF1 /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		329141691E5D645D0045BBF1 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
+		3291416A1E5D645D0045BBF1 /* AppConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,7 +164,7 @@
 		3291413C1E5BED5B0045BBF1 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				3291415A1E5D38C10045BBF1 /* Utilities */,
+				329141661E5D645D0045BBF1 /* Utinities */,
 				3291413D1E5BED5B0045BBF1 /* Libraries */,
 			);
 			path = Helpers;
@@ -217,26 +217,26 @@
 			path = CustomCell;
 			sourceTree = "<group>";
 		};
-		3291415A1E5D38C10045BBF1 /* Utilities */ = {
+		329141661E5D645D0045BBF1 /* Utinities */ = {
 			isa = PBXGroup;
 			children = (
-				3291415B1E5D38C10045BBF1 /* AccountManager */,
-				3291415E1E5D38C10045BBF1 /* AppConstant.h */,
-				3291415F1E5D38C10045BBF1 /* Common */,
+				329141671E5D645D0045BBF1 /* AccountManager */,
+				3291416A1E5D645D0045BBF1 /* AppConstant.h */,
+				3291416B1E5D645D0045BBF1 /* Common */,
 			);
-			path = Utilities;
+			path = Utinities;
 			sourceTree = "<group>";
 		};
-		3291415B1E5D38C10045BBF1 /* AccountManager */ = {
+		329141671E5D645D0045BBF1 /* AccountManager */ = {
 			isa = PBXGroup;
 			children = (
-				3291415C1E5D38C10045BBF1 /* AccountManager.h */,
-				3291415D1E5D38C10045BBF1 /* AccountManager.m */,
+				329141681E5D645D0045BBF1 /* AccountManager.h */,
+				329141691E5D645D0045BBF1 /* AccountManager.m */,
 			);
 			path = AccountManager;
 			sourceTree = "<group>";
 		};
-		3291415F1E5D38C10045BBF1 /* Common */ = {
+		3291416B1E5D645D0045BBF1 /* Common */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -380,10 +380,10 @@
 			files = (
 				329141451E5BED5B0045BBF1 /* ViewController.m in Sources */,
 				329141641E5D421B0045BBF1 /* TableViewCell.m in Sources */,
-				329141601E5D38C10045BBF1 /* AccountManager.m in Sources */,
 				3291414C1E5C30470045BBF1 /* SimpleTableVC.m in Sources */,
 				329141441E5BED5B0045BBF1 /* AppDelegate.m in Sources */,
 				329140F91E5BD4560045BBF1 /* main.m in Sources */,
+				3291416C1E5D645D0045BBF1 /* AccountManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
