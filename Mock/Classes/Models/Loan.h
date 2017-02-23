@@ -15,21 +15,22 @@
 
 @property (nonatomic) NSString *id;
 @property (nonatomic) NSString *name;
+@property (nonatomic) NSString *sector;
 @property (nonatomic) NSArray <NSString *> *languages;
 @property (nonatomic) NSString *status;
-@property (nonatomic) NSString *funded_amount;
-@property (nonatomic) NSString *basket_amount;
+@property (nonatomic) int funded_amount;
+@property (nonatomic) int basket_amount;
 @property (nonatomic) LoanImages *image;
 @property (nonatomic) NSString *activity;
 @property (nonatomic) NSArray <NSString *> *themes;
 @property (nonatomic) NSString *use;
 @property (nonatomic) NSString *location;
-@property (nonatomic) NSString *partner_id;
+@property (nonatomic) int partner_id;
 @property (nonatomic) NSString *posted_date;
 @property (nonatomic) NSString *planned_expiration_date;
 @property (nonatomic) NSString *loan_amount;
-@property (nonatomic) NSString *borrower_count;
-@property (nonatomic) NSString *lender_count;
+@property (nonatomic) int borrower_count;
+@property (nonatomic) int lender_count;
 @property (nonatomic) BOOL bonus_credit_eligibility;
 @property (nonatomic) NSArray <LoanTags *> *tags;
 

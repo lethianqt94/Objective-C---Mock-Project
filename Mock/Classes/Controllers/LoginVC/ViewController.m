@@ -46,11 +46,11 @@
   [Webservice requestGetUrl:API_TEST parameters:nil success:^(NSDictionary *responce) {
     NSError *error;
     Loans *loans = [[Loans alloc] initWithDictionary:responce error:&error];
-    NSLog(@"value count of loans: %lu\n", (unsigned long)[loans.loans count]);
+    NSLog(@"value count of loans: %lu\n", (unsigned long)[loans.loanArray count]);
     
-    for (int i = 0; i < [loans.loans count]; i++) {
+    for (int i = 0; i < [loans.loanArray count]; i++) {
       NSLog(@"value of a: %d\n", i);
-      NSLog(@"name = %@", loans.loans[i].name);
+      NSLog(@"name = %@", loans.loanArray[i].name);
     }
     
   } failure:^(NSError *error, NSInteger statusCode) {

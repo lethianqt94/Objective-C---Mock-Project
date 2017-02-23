@@ -20,6 +20,7 @@
                                                                 @"basket_amount": @"basket_amount",
                                                                 @"image": @"image",
                                                                 @"activity": @"activity",
+                                                                @"sector": @"sector",
                                                                 @"themes": @"themes",
                                                                 @"use": @"use",
                                                                 @"location": @"location",
