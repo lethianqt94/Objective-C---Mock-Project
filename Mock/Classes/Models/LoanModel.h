@@ -10,8 +10,8 @@
 #import "Loan.h"
 #import <JSONModel.h>
 
-@interface Loans : JSONModel
+@interface LoanModel : JSONModel
 
-@property (nonatomic) NSArray<Loan *> *loanArray;
+@property (nonatomic) NSArray<Loan *> *loans;
 
 @end

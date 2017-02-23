@@ -27,7 +27,7 @@
 		329141A01E5E80CD0045BBF1 /* LoanLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3291419F1E5E80CD0045BBF1 /* LoanLocation.m */; };
 		329141A31E5E83880045BBF1 /* Loan.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141A21E5E83880045BBF1 /* Loan.m */; };
 		329141A61E5E888A0045BBF1 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141A51E5E888A0045BBF1 /* Common.m */; };
-		329141A91E5E943A0045BBF1 /* Loans.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141A81E5E943A0045BBF1 /* Loans.m */; };
+		329141A91E5E943A0045BBF1 /* LoanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141A81E5E943A0045BBF1 /* LoanModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,8 +87,8 @@
 		329141A21E5E83880045BBF1 /* Loan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Loan.m; sourceTree = "<group>"; };
 		329141A41E5E888A0045BBF1 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		329141A51E5E888A0045BBF1 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
-		329141A71E5E943A0045BBF1 /* Loans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loans.h; sourceTree = "<group>"; };
-		329141A81E5E943A0045BBF1 /* Loans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Loans.m; sourceTree = "<group>"; };
+		329141A71E5E943A0045BBF1 /* LoanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoanModel.h; sourceTree = "<group>"; };
+		329141A81E5E943A0045BBF1 /* LoanModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoanModel.m; sourceTree = "<group>"; };
 		66175F59D65B2A25D6FD2B34 /* Pods-Mock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mock.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mock/Pods-Mock.release.xcconfig"; sourceTree = "<group>"; };
 		99FA1880F65B15948B21E5FF /* libPods-Mock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -256,8 +256,8 @@
 				3291419F1E5E80CD0045BBF1 /* LoanLocation.m */,
 				329141A11E5E83880045BBF1 /* Loan.h */,
 				329141A21E5E83880045BBF1 /* Loan.m */,
-				329141A71E5E943A0045BBF1 /* Loans.h */,
-				329141A81E5E943A0045BBF1 /* Loans.m */,
+				329141A71E5E943A0045BBF1 /* LoanModel.h */,
+				329141A81E5E943A0045BBF1 /* LoanModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -528,7 +528,7 @@
 				3291418C1E5E79090045BBF1 /* LoanImages.m in Sources */,
 				3291419D1E5E7BA30045BBF1 /* LoanTags.m in Sources */,
 				329141A01E5E80CD0045BBF1 /* LoanLocation.m in Sources */,
-				329141A91E5E943A0045BBF1 /* Loans.m in Sources */,
+				329141A91E5E943A0045BBF1 /* LoanModel.m in Sources */,
 				329141991E5E794A0045BBF1 /* Webservice.m in Sources */,
 				329141A31E5E83880045BBF1 /* Loan.m in Sources */,
 				329141981E5E794A0045BBF1 /* AccountManager.m in Sources */,

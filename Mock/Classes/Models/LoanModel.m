@@ -6,8 +6,8 @@
 //  Copyright © 2017 Neolab. All rights reserved.
 //
 
-#import "Loans.h"
+#import "LoanModel.h"
 
-@implementation Loans
+@implementation LoanModel
 
 @end

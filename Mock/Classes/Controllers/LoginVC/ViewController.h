@@ -10,7 +10,7 @@
 #import "SimpleTableVC.h"
 #import "Webservice.h"
 #import "AccountManager.h"
-#import "Loans.h"
+#import "LoanModel.h"
 #import "utilities.h"
 
 @interface ViewController : UIViewController
