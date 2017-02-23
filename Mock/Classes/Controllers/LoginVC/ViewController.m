@@ -36,6 +36,13 @@
   [super viewDidLoad];
   // Do any additional setup after loading the view, typically from a nib.
   [self initView];
+  
+  [Webservice requestGetUrl:API_TEST parameters:nil success:^(NSDictionary *responce) {
+    NSLog(@"%@", responce);
+  } failure:^(NSError *error, NSInteger statusCode) {
+    NSLog(@"error %@, status code = %ld", error.localizedDescription, (long)statusCode);
+  }];
+  
 }
 
 - (void)viewWillAppear:(BOOL)animated {

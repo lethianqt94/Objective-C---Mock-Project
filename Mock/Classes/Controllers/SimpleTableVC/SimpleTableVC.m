@@ -39,6 +39,9 @@ static NSString *customCellIdentifier = @"CustomCell";
   
   [self.navigationController setNavigationBarHidden:false];
   self.navigationController.navigationBar.translucent = NO;
+  
+  
+  
 }
 
 #pragma mark - UITextFieldDelegate

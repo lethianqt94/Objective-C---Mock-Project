@@ -21,6 +21,7 @@
 		329141801E5D73AB0045BBF1 /* SimpleTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329141761E5D73AB0045BBF1 /* SimpleTableVC.xib */; };
 		329141811E5D73AB0045BBF1 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3291417B1E5D73AB0045BBF1 /* TableViewCell.m */; };
 		329141821E5D73AB0045BBF1 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3291417C1E5D73AB0045BBF1 /* TableViewCell.xib */; };
+		329141861E5D7EDF0045BBF1 /* Webservice.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141851E5D7EDF0045BBF1 /* Webservice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		3291417A1E5D73AB0045BBF1 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		3291417B1E5D73AB0045BBF1 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		3291417C1E5D73AB0045BBF1 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		329141841E5D7EDF0045BBF1 /* Webservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Webservice.h; sourceTree = "<group>"; };
+		329141851E5D7EDF0045BBF1 /* Webservice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Webservice.m; sourceTree = "<group>"; };
 		66175F59D65B2A25D6FD2B34 /* Pods-Mock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mock.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mock/Pods-Mock.release.xcconfig"; sourceTree = "<group>"; };
 		99FA1880F65B15948B21E5FF /* libPods-Mock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -187,6 +190,7 @@
 		329141661E5D645D0045BBF1 /* Utinities */ = {
 			isa = PBXGroup;
 			children = (
+				329141831E5D74C80045BBF1 /* Webservice */,
 				329141671E5D645D0045BBF1 /* AccountManager */,
 				3291416A1E5D645D0045BBF1 /* AppConstant.h */,
 				3291416B1E5D645D0045BBF1 /* Common */,
@@ -272,6 +276,15 @@
 				3291417C1E5D73AB0045BBF1 /* TableViewCell.xib */,
 			);
 			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		329141831E5D74C80045BBF1 /* Webservice */ = {
+			isa = PBXGroup;
+			children = (
+				329141841E5D7EDF0045BBF1 /* Webservice.h */,
+				329141851E5D7EDF0045BBF1 /* Webservice.m */,
+			);
+			path = Webservice;
 			sourceTree = "<group>";
 		};
 		B3311DC1CD5CD372B9434B95 /* Frameworks */ = {
@@ -479,6 +492,7 @@
 			files = (
 				329141441E5BED5B0045BBF1 /* AppDelegate.m in Sources */,
 				329141811E5D73AB0045BBF1 /* TableViewCell.m in Sources */,
+				329141861E5D7EDF0045BBF1 /* Webservice.m in Sources */,
 				3291417F1E5D73AB0045BBF1 /* SimpleTableVC.m in Sources */,
 				329140F91E5BD4560045BBF1 /* main.m in Sources */,
 				3291417D1E5D73AB0045BBF1 /* ViewController.m in Sources */,

@@ -6,8 +6,8 @@
 //  Copyright © 2017 Neolab. All rights reserved.
 //
 
-#ifndef AppConstant_h
-#define AppConstant_h
+#pragma mark - API
 
+#define		API_SERVER_URL						@"http://api.kivaws.org/"
+#define		API_TEST                  @"v1/loans/search.json?status=fundraising"
 
-#endif /* AppConstant_h */
