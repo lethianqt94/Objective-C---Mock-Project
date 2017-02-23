@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AFNetworking.h>
+#import "utilities.h"
 #import "AppConstant.h"
 
 @interface Webservice : AFHTTPSessionManager

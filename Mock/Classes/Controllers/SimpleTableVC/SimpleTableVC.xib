@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SimpleTableVC">
             <connections>
-                <outlet property="tableview" destination="MWk-2r-IDU" id="eZo-WZ-C0t"/>
+                <outlet property="tableview" destination="MWk-2r-IDU" id="S71-UR-89s"/>
                 <outlet property="view" destination="iN0-l3-epB" id="c6V-yO-hNt"/>
             </connections>
         </placeholder>

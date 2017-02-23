@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "AccountManager.h"
 
 @interface ViewController ()
 
@@ -32,24 +31,32 @@
 
 #pragma mark - Lifecycle
 
+- (void)viewWillAppear:(BOOL)animated {
+  [super viewWillAppear:true];
+  _tfEmail.text = @"";
+  _tfPassword.text = @"";
+  [self.navigationController setNavigationBarHidden:true];
+}
+
 - (void)viewDidLoad {
   [super viewDidLoad];
   // Do any additional setup after loading the view, typically from a nib.
   [self initView];
   
   [Webservice requestGetUrl:API_TEST parameters:nil success:^(NSDictionary *responce) {
-    NSLog(@"%@", responce);
+    NSError *error;
+    Loans *loans = [[Loans alloc] initWithDictionary:responce error:&error];
+    NSLog(@"value count of loans: %lu\n", (unsigned long)[loans.loans count]);
+    
+    for (int i = 0; i < [loans.loans count]; i++) {
+      NSLog(@"value of a: %d\n", i);
+      NSLog(@"name = %@", loans.loans[i].name);
+    }
+    
   } failure:^(NSError *error, NSInteger statusCode) {
     NSLog(@"error %@, status code = %ld", error.localizedDescription, (long)statusCode);
   }];
   
-}
-
-- (void)viewWillAppear:(BOOL)animated {
-  [super viewWillAppear:true];
-  _tfEmail.text = @"";
-  _tfPassword.text = @"";
-  [self.navigationController setNavigationBarHidden:true];
 }
 
 #pragma mark - Methods

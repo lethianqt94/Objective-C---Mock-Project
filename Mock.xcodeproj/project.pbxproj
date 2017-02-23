@@ -14,14 +14,20 @@
 		329141121E5BD4560045BBF1 /* MockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141111E5BD4560045BBF1 /* MockTests.m */; };
 		3291411D1E5BD4560045BBF1 /* MockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3291411C1E5BD4560045BBF1 /* MockUITests.m */; };
 		329141441E5BED5B0045BBF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3291413B1E5BED5B0045BBF1 /* AppDelegate.m */; };
-		3291416C1E5D645D0045BBF1 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141691E5D645D0045BBF1 /* AccountManager.m */; };
 		3291417D1E5D73AB0045BBF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141711E5D73AB0045BBF1 /* ViewController.m */; };
 		3291417E1E5D73AB0045BBF1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329141721E5D73AB0045BBF1 /* ViewController.xib */; };
 		3291417F1E5D73AB0045BBF1 /* SimpleTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141751E5D73AB0045BBF1 /* SimpleTableVC.m */; };
 		329141801E5D73AB0045BBF1 /* SimpleTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329141761E5D73AB0045BBF1 /* SimpleTableVC.xib */; };
 		329141811E5D73AB0045BBF1 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3291417B1E5D73AB0045BBF1 /* TableViewCell.m */; };
 		329141821E5D73AB0045BBF1 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3291417C1E5D73AB0045BBF1 /* TableViewCell.xib */; };
-		329141861E5D7EDF0045BBF1 /* Webservice.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141851E5D7EDF0045BBF1 /* Webservice.m */; };
+		3291418C1E5E79090045BBF1 /* LoanImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 3291418B1E5E79090045BBF1 /* LoanImages.m */; };
+		329141981E5E794A0045BBF1 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141911E5E794A0045BBF1 /* AccountManager.m */; };
+		329141991E5E794A0045BBF1 /* Webservice.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141971E5E794A0045BBF1 /* Webservice.m */; };
+		3291419D1E5E7BA30045BBF1 /* LoanTags.m in Sources */ = {isa = PBXBuildFile; fileRef = 3291419C1E5E7BA30045BBF1 /* LoanTags.m */; };
+		329141A01E5E80CD0045BBF1 /* LoanLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3291419F1E5E80CD0045BBF1 /* LoanLocation.m */; };
+		329141A31E5E83880045BBF1 /* Loan.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141A21E5E83880045BBF1 /* Loan.m */; };
+		329141A61E5E888A0045BBF1 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141A51E5E888A0045BBF1 /* Common.m */; };
+		329141A91E5E943A0045BBF1 /* Loans.m in Sources */ = {isa = PBXBuildFile; fileRef = 329141A81E5E943A0045BBF1 /* Loans.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +62,6 @@
 		3291411E1E5BD4560045BBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3291413A1E5BED5B0045BBF1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3291413B1E5BED5B0045BBF1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		329141681E5D645D0045BBF1 /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
-		329141691E5D645D0045BBF1 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
-		3291416A1E5D645D0045BBF1 /* AppConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
 		329141701E5D73AB0045BBF1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		329141711E5D73AB0045BBF1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		329141721E5D73AB0045BBF1 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
@@ -68,8 +71,24 @@
 		3291417A1E5D73AB0045BBF1 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		3291417B1E5D73AB0045BBF1 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		3291417C1E5D73AB0045BBF1 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
-		329141841E5D7EDF0045BBF1 /* Webservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Webservice.h; sourceTree = "<group>"; };
-		329141851E5D7EDF0045BBF1 /* Webservice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Webservice.m; sourceTree = "<group>"; };
+		3291418A1E5E79090045BBF1 /* LoanImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoanImages.h; sourceTree = "<group>"; };
+		3291418B1E5E79090045BBF1 /* LoanImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoanImages.m; sourceTree = "<group>"; };
+		329141901E5E794A0045BBF1 /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		329141911E5E794A0045BBF1 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
+		329141921E5E794A0045BBF1 /* AppConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
+		329141961E5E794A0045BBF1 /* Webservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Webservice.h; sourceTree = "<group>"; };
+		329141971E5E794A0045BBF1 /* Webservice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Webservice.m; sourceTree = "<group>"; };
+		3291419A1E5E798C0045BBF1 /* utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utilities.h; sourceTree = "<group>"; };
+		3291419B1E5E7BA30045BBF1 /* LoanTags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoanTags.h; sourceTree = "<group>"; };
+		3291419C1E5E7BA30045BBF1 /* LoanTags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoanTags.m; sourceTree = "<group>"; };
+		3291419E1E5E80CD0045BBF1 /* LoanLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoanLocation.h; sourceTree = "<group>"; };
+		3291419F1E5E80CD0045BBF1 /* LoanLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoanLocation.m; sourceTree = "<group>"; };
+		329141A11E5E83880045BBF1 /* Loan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loan.h; sourceTree = "<group>"; };
+		329141A21E5E83880045BBF1 /* Loan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Loan.m; sourceTree = "<group>"; };
+		329141A41E5E888A0045BBF1 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		329141A51E5E888A0045BBF1 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		329141A71E5E943A0045BBF1 /* Loans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loans.h; sourceTree = "<group>"; };
+		329141A81E5E943A0045BBF1 /* Loans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Loans.m; sourceTree = "<group>"; };
 		66175F59D65B2A25D6FD2B34 /* Pods-Mock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mock.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mock/Pods-Mock.release.xcconfig"; sourceTree = "<group>"; };
 		99FA1880F65B15948B21E5FF /* libPods-Mock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -174,7 +193,7 @@
 		3291413C1E5BED5B0045BBF1 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				329141661E5D645D0045BBF1 /* Utinities */,
+				3291418E1E5E794A0045BBF1 /* Utilities */,
 				3291413D1E5BED5B0045BBF1 /* Libraries */,
 			);
 			path = Helpers;
@@ -185,33 +204,6 @@
 			children = (
 			);
 			path = Libraries;
-			sourceTree = "<group>";
-		};
-		329141661E5D645D0045BBF1 /* Utinities */ = {
-			isa = PBXGroup;
-			children = (
-				329141831E5D74C80045BBF1 /* Webservice */,
-				329141671E5D645D0045BBF1 /* AccountManager */,
-				3291416A1E5D645D0045BBF1 /* AppConstant.h */,
-				3291416B1E5D645D0045BBF1 /* Common */,
-			);
-			path = Utinities;
-			sourceTree = "<group>";
-		};
-		329141671E5D645D0045BBF1 /* AccountManager */ = {
-			isa = PBXGroup;
-			children = (
-				329141681E5D645D0045BBF1 /* AccountManager.h */,
-				329141691E5D645D0045BBF1 /* AccountManager.m */,
-			);
-			path = AccountManager;
-			sourceTree = "<group>";
-		};
-		3291416B1E5D645D0045BBF1 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Common;
 			sourceTree = "<group>";
 		};
 		3291416D1E5D73AB0045BBF1 /* Classes */ = {
@@ -256,6 +248,16 @@
 		329141771E5D73AB0045BBF1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3291418A1E5E79090045BBF1 /* LoanImages.h */,
+				3291418B1E5E79090045BBF1 /* LoanImages.m */,
+				3291419B1E5E7BA30045BBF1 /* LoanTags.h */,
+				3291419C1E5E7BA30045BBF1 /* LoanTags.m */,
+				3291419E1E5E80CD0045BBF1 /* LoanLocation.h */,
+				3291419F1E5E80CD0045BBF1 /* LoanLocation.m */,
+				329141A11E5E83880045BBF1 /* Loan.h */,
+				329141A21E5E83880045BBF1 /* Loan.m */,
+				329141A71E5E943A0045BBF1 /* Loans.h */,
+				329141A81E5E943A0045BBF1 /* Loans.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -278,11 +280,41 @@
 			path = CustomCell;
 			sourceTree = "<group>";
 		};
-		329141831E5D74C80045BBF1 /* Webservice */ = {
+		3291418E1E5E794A0045BBF1 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				329141841E5D7EDF0045BBF1 /* Webservice.h */,
-				329141851E5D7EDF0045BBF1 /* Webservice.m */,
+				3291418F1E5E794A0045BBF1 /* AccountManager */,
+				329141921E5E794A0045BBF1 /* AppConstant.h */,
+				329141931E5E794A0045BBF1 /* Common */,
+				329141951E5E794A0045BBF1 /* Webservice */,
+				3291419A1E5E798C0045BBF1 /* utilities.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3291418F1E5E794A0045BBF1 /* AccountManager */ = {
+			isa = PBXGroup;
+			children = (
+				329141901E5E794A0045BBF1 /* AccountManager.h */,
+				329141911E5E794A0045BBF1 /* AccountManager.m */,
+			);
+			path = AccountManager;
+			sourceTree = "<group>";
+		};
+		329141931E5E794A0045BBF1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				329141A41E5E888A0045BBF1 /* Common.h */,
+				329141A51E5E888A0045BBF1 /* Common.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		329141951E5E794A0045BBF1 /* Webservice */ = {
+			isa = PBXGroup;
+			children = (
+				329141961E5E794A0045BBF1 /* Webservice.h */,
+				329141971E5E794A0045BBF1 /* Webservice.m */,
 			);
 			path = Webservice;
 			sourceTree = "<group>";
@@ -490,13 +522,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				329141A61E5E888A0045BBF1 /* Common.m in Sources */,
 				329141441E5BED5B0045BBF1 /* AppDelegate.m in Sources */,
 				329141811E5D73AB0045BBF1 /* TableViewCell.m in Sources */,
-				329141861E5D7EDF0045BBF1 /* Webservice.m in Sources */,
+				3291418C1E5E79090045BBF1 /* LoanImages.m in Sources */,
+				3291419D1E5E7BA30045BBF1 /* LoanTags.m in Sources */,
+				329141A01E5E80CD0045BBF1 /* LoanLocation.m in Sources */,
+				329141A91E5E943A0045BBF1 /* Loans.m in Sources */,
+				329141991E5E794A0045BBF1 /* Webservice.m in Sources */,
+				329141A31E5E83880045BBF1 /* Loan.m in Sources */,
+				329141981E5E794A0045BBF1 /* AccountManager.m in Sources */,
 				3291417F1E5D73AB0045BBF1 /* SimpleTableVC.m in Sources */,
 				329140F91E5BD4560045BBF1 /* main.m in Sources */,
 				3291417D1E5D73AB0045BBF1 /* ViewController.m in Sources */,
-				3291416C1E5D645D0045BBF1 /* AccountManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
