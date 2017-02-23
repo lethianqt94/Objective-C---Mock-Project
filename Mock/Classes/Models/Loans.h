@@ -12,6 +12,6 @@
 
 @interface Loans : JSONModel
 
-@property (nonatomic) NSArray<LoanModel *> *loans;
+@property (nonatomic) NSArray<LoanModel> *loans;
 
 @end

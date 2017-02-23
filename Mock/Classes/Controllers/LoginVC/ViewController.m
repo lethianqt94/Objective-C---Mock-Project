@@ -50,7 +50,16 @@
     
     for (int i = 0; i < [result.loans count]; i++) {
       NSLog(@"value of a: %d\n", i);
-      NSLog(@"name = %@", result.loans[i].name);
+      LoanModel *loan = [result.loans objectAtIndex:i];
+      NSLog(@"name %@",loan.name);
+      if ([loan.themes isEqual:nil] || [loan.themes isEqual:@""]) {
+      
+      } else {
+        for (int i = 0; i < [loan.themes count]; i++) {
+          NSString *theme = [loan.themes objectAtIndex:i];
+          NSLog(@"theme %@",theme);
+        }
+      }
     }
     
   } failure:^(NSError *error, NSInteger statusCode) {
